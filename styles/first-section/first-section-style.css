@@ -1,0 +1,43 @@
+.info-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    background-color: lightcyan;
+}
+
+.info-fields, .display-information, form {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    align-items: center;
+    gap: 1rem;
+    font-family: "lilita one";
+}
+
+.info-label {
+    margin-bottom: 1rem;
+    font-family: "lilita one";
+    font-size: 1.5rem;
+}
+
+.general-input {
+    padding: 1rem;
+    font-size: 1rem;
+    border: none;
+    box-shadow: 1px 1px 3px black;
+}
+
+.display-information {
+    min-width: 30%;
+}
+
+.display-information h1 {
+    font-family: "roboto";
+}
+
+.submit-btn, .edit-btn {
+    font-family: "lilita one";
+    padding: 1rem;
+    font-size: 1.5rem;
+}
